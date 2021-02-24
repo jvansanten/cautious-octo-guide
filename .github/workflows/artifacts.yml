@@ -14,3 +14,4 @@ jobs:
         python-version: 3.8
     - uses: jvansanten/poetry-export-to-legacy-action@master
     - run: git status
+    - run: git diff
