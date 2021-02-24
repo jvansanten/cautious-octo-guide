@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "testy"
+version = "1.2.3"
+description = "Test project"
+authors = ["Phineas McGoo"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "~1.4"
+pymongo = "^3.10"
+PyYAML = "^5.4.1"
+sjcl = "^0.2.1"
+schedule = "^1.0.0"
+yq = "^2.12.0"
+prometheus-client = "^0.9.0"
+psutil = "^5.8.0"
+slackclient = "^2.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
